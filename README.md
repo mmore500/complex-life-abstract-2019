@@ -1,9 +1,9 @@
-## Homework Template
+## Evolution of Complex Life 2019 Abstract
 
-A LaTeX template for homework assignments.
+RE: [work on dishtiny](osf.io/g58xk/)_
 
 ### Authorship
 
 Matthew Andres Moreno
 
-`matthew.andres.moreno@gmail.com`
+`m,more500@gmail.com`
