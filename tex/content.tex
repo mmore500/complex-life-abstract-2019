@@ -1,21 +1,24 @@
 \begin{abstract}
 
 Natural evolutionary history is profoundly shaped by evolutionary transitions in individuality, episodes where independent replicating entities united to form more complex replicating entities.
-Fraternal transitions in individuality occur specifically when the derived replicating entity is composed of kin groups of a lower-level replicating entity;
+Fraternal transitions in individuality occur specifically when the derived replicating entity is composed of kin groups of a lower-level replicator;
 examples include the evolution of multicellularity and the evolution of eusocial insect colonies.
-The conditions necessary for fraternal transitions in individuality to occur and the mechanisms by which such transitions occur are a fruitful target of scientific interest and warrant continued investigation.
-Digital evolution techniques allow pursuit of biologically-motivated questions that otherwise, \textit{in vivo}, might be slow, expensive, or call for manipulation of physically immutable variables.
-From an applied perspective, fraternal transitions in individuality might yield more complex digital organisms that exhibit more sophisticated, and potentially useful, capabilities.
+The conditions necessary for fraternal transitions to occur and the mechanisms by which such transitions occur have been a fruitful target of scientific interest and warrant continued investigation into many interesting open questions.
+Digital evolution techniques allow pursuit of biologically-motivated questions that otherwise, \textit{in vivo}, might require experiments that are slow, expensive, or call for manipulation of physically immutable variables. %
 
 We present an extension of previous exploratory work with the DISHTINY (Distributed Hierarchical Transitions in IndividualitY) platform.
-In this current work, we incorporate the SignalGP genetic programming representation, which allows for event-driven interactions among digital cells and between cells and their environment.
-In order to facilitate evolvability of directionally-symmetric phenotypes, we exploit the dynamic nature of SignalGP to mirror genetic programming across directionally-arrayed computational instances, a novel innovation in grid-based digital evolution work.
-Through a cooperative resource-collection mechanism, DISHTINY incentivizes SignalGP-controlled cells to unite into explicitly registered self-replicating kin collectives.
-In evolution experiments we observe phenotypes characteristic of fraternal transitions in individuality: reproductive division of labor, resource-sharing (including, in some replicates, endowment of offspring propagule groups), and cell suicide.
+In this current work we introduce a more open-ended digital organism model in which cells are controlled by heritable computer programs, similarly to the well-known Avida digital evolution system.
+Specifically, we incorporate the SignalGP genetic programming representation, which allows for dynamic (event-driven) interactions among digital cells and between cells and their environment.
+DISHTINY allows SignalGP-controlled cells to unite into explicitly registered cooperating groups.
+Membership in a cooperating group is limited to kin: at birth, cells can either join the same cooperative network as its parent or begin a new network.
+A cooperative resource-collection mechanism incentivizes group formation.
+DISHTINY cells evolve phenotypes characteristic of fraternal transitions in individuality with respect to these cooperating groups: reproductive division of labor, resource sharing (including, in some replicates, endowment of offspring propagule groups), and apoptosis.
+% strategic apoptosis, but we don't  quite have complete evidence of this yet
 
-Our research begs a slew of exciting extensions.
-High-performance parallel computing hardware can exploit DISHTINY's fundamentally spatial and distributed conception to enable large-scale multicellularity experiments consisting of millions, instead of thousands, of cells.
-The dynamic, event-driven design of SignalGP provides avenues introduce ploidy and computationally performant overlay of direct, spatially-shortcutting neurological and vascular faculties.
-Ultimately, we hope to develop large-scale digital multicellularity as a substrate to evolve reinforcement-learning agents with an eye towards tasks pursued in existing and emerging AI research, such as the Open AI Gym and the Animal AI Olympics.
+Our research raises a slew of exciting potential extensions.
+DISHTINY's fundamentally spatial and distributed conception allows high-performance parallel computing hardware to be leveraged to perform large-scale multicellularity experiments consisting of millions, instead of thousands, of cells.
+The dynamic, event-driven design of SignalGP provides avenues to introduce ploidy and enable direct communication and resource sharing between distant cells (e.g., neurological and vascular faculties).
+From an applied perspective, fraternal transitions in individuality might yield more complex digital organisms that exhibit more sophisticated, and potentially useful, capabilities, for example, as reinforcement-learning agents.
+From a scientific perspective, we believe that open-ended digital multicellular systems will provide insight into evolutionary transitions in individuality that is unique from, but complementary to, traditional experimental and observational methods.
 
 \end{abstract}
