@@ -7,3 +7,7 @@ RE: [work on dishtiny](osf.io/g58xk/).
 Matthew Andres Moreno
 
 `m.more500@gmail.com`
+
+Dr. Charles Ofria
+
+`ofria@msu.edu`
